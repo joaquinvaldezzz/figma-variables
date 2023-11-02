@@ -1,0 +1,85 @@
+:root {
+  --bg-primary: theme('colors.light.25');
+  --bg-primary-dark: theme('colors.dark.950');
+  --bg-primary-alt: theme('colors.light.25');
+  --bg-primary-alt-dark: theme('colors.dark.900');
+  --bg-primary-hover: theme('colors.light.50');
+  --bg-primary-hover-dark: theme('colors.dark.800');
+
+  --bg-primary-solid: theme('colors.light.950');
+  --bg-primary-solid-dark: theme('colors.dark.900');
+
+  --bg-secondary: theme('colors.light.50');
+  --bg-secondary-dark: theme('colors.dark.900');
+  --bg-secondary-alt: theme('colors.light.50');
+  --bg-secondary-alt-dark: theme('colors.light.25');
+  --bg-secondary-hover: theme('colors.light.100');
+  --bg-secondary-hover-dark: theme('colors.dark.800');
+  --bg-secondary-subtle: theme('colors.light.25');
+  --bg-secondary-subtle-dark: theme('colors.dark.900');
+
+  --bg-secondary-solid: theme('colors.light.600');
+  --bg-secondary-solid-dark: theme('colors.dark.600');
+
+  --bg-tertiary: theme('colors.light.100');
+  --bg-tertiary-dark: theme('colors.dark.800');
+
+  --bg-quaternary: theme('colors.light.200');
+  --bg-quaternary-dark: theme('colors.dark.700');
+
+  --bg-active: theme('colors.light.50');
+  --bg-active-dark: theme('colors.dark.800');
+
+  --bg-disabled: theme('colors.light.100');
+  --bg-disabled-dark: theme('colors.dark.800');
+  --bg-disabled-subtle: theme('colors.light.50');
+  --bg-disabled-subtle-dark: theme('colors.dark.900');
+
+  --bg-overlay: theme('colors.light.950');
+  --bg-overlay-dark: theme('colors.dark.800');
+
+  --bg-brand-primary: theme('colors.brand.50');
+  --bg-brand-primary-dark: theme('colors.brand.500');
+  --bg-brand-primary-alt: theme('colors.brand.50');
+  --bg-brand-primary-alt-dark: theme('colors.brand.900');
+
+  --bg-brand-secondary: theme('colors.brand.100');
+  --bg-brand-secondary-dark: theme('colors.brand.600');
+
+  --bg-brand-solid: theme('colors.brand.600');
+  --bg-brand-solid-dark: theme('colors.brand.600');
+  --bg-brand-solid-hover: theme('colors.brand.700');
+  --bg-brand-solid-hover-dark: theme('colors.brand.500');
+
+  --bg-brand-section: theme('colors.brand.800');
+  --bg-brand-section-dark: theme('colors.brand.900');
+  --bg-brand-section-subtle: theme('colors.brand.700');
+  --bg-brand-section-subtle-dark: theme('colors.brand.25');
+
+  --bg-error-primary: theme('colors.error.50');
+  --bg-error-primary-dark: theme('colors.error.500');
+
+  --bg-error-secondary: theme('colors.error.700');
+  --bg-error-secondary-dark: theme('colors.error.600');
+
+  --bg-error-solid: theme('colors.error.600');
+  --bg-error-solid-dark: theme('colors.error.600');
+
+  --bg-warning-primary: theme('colors.warning.50');
+  --bg-warning-primary-dark: theme('colors.warning.500');
+
+  --bg-warning-secondary: theme('colors.warning.100');
+  --bg-warning-secondary-dark: theme('colors.warning.600');
+
+  --bg-warning-solid: theme('colors.warning.600');
+  --bg-warning-solid-dark: theme('colors.warning.600');
+
+  --bg-success-primary: theme('colors.success.50');
+  --bg-success-primary-dark: theme('colors.success.500');
+
+  --bg-success-secondary: theme('colors.success.100');
+  --bg-success-secondary-dark: theme('colors.success.600');
+
+  --bg-success-solid: theme('colors.success.600');
+  --bg-success-solid-dark: theme('colors.success.600');
+}
