@@ -2,8 +2,8 @@ const colors = require('../colors')
 
 module.exports = {
   'primary-fg': {
-    DEFAULT: colors.light[900],
-    dark: colors.white,
+    DEFAULT: 'var(--fg-primary)',
+    dark: 'var(--fg-primary-dark)',
   },
 
   'secondary-fg': {
