@@ -1,2 +1,4 @@
-/* @import 'variables/text'; */
+@import 'variables/background';
+@import 'variables/border';
 @import 'variables/foreground';
+@import 'variables/text';
