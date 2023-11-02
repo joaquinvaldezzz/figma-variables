@@ -9,10 +9,10 @@
   --fg-tertiary-dark: theme('colors.dark.400');
   --fg-tertiary-hover: theme('colors.light.700');
   --fg-tertiary-hover-dark: theme('colors.dark.300');
-  --fg-quaternary: theme('colors.light.500');
-  --fg-quaternary-dark: theme('colors.dark.400');
-  --fg-quaternary-hover: theme('colors.light.600');
-  --fg-quaternary-hover-dark: theme('colors.dark.300');
+  --fg-quarterary: theme('colors.light.500');
+  --fg-quarterary-dark: theme('colors.dark.400');
+  --fg-quarterary-hover: theme('colors.light.600');
+  --fg-quarterary-hover-dark: theme('colors.dark.300');
   --fg-quinary: theme('colors.light.400');
   --fg-quinary-dark: theme('colors.dark.500');
   --fg-quinary-hover: theme('colors.light.500');
