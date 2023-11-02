@@ -1,5 +1,4 @@
 :root {
-  /* Text color variables */
   --text-primary: theme('colors.light.900');
   --text-primary-dark: theme('colors.dark.50');
   --text-primary-on-brand: theme('colors.white');
@@ -7,4 +6,48 @@
 
   --text-secondary: theme('colors.light.700');
   --text-secondary-dark: theme('colors.dark.300');
+  --text-secondary-hover: theme('colors.light.800');
+  --text-secondary-hover-dark: theme('colors.dark.200');
+  --text-secondary-on-brand: theme('colors.brand.200');
+  --text-secondary-on-brand-dark: theme('colors.brand.300');
+
+  --text-tertiary: theme('colors.light.600');
+  --text-tertiary-dark: theme('colors.dark.400');
+  --text-tertiary-hover: theme('colors.light.700');
+  --text-tertiary-hover-dark: theme('colors.dark.300');
+  --text-tertiary-on-brand: theme('colors.brand.200');
+  --text-tertiary-on-brand-dark: theme('colors.dark.400');
+
+  --text-quarterary: theme('colors.light.500');
+  --text-quarterary-dark: theme('colors.dark.400');
+  --text-quarterary-on-brand: theme('colors.brand.300');
+  --text-quarterary-on-brand-dark: theme('colors.dark.400');
+
+  --text-disabled: theme('colors.light.500');
+  --text-disabled-dark: theme('colors.dark.500');
+
+  --text-placeholder: theme('colors.light.500');
+  --text-placeholder-dark: theme('colors.dark.500');
+  --text-placeholder-subtle: theme('colors.light.300');
+  --text-placeholder-subtle-dark: theme('colors.dark.700');
+
+  --text-brand-primary: theme('colors.brand.900');
+  --text-brand-primary-dark: theme('colors.dark.50');
+
+  --text-brand-secondary: theme('colors.brand.700');
+  --text-brand-secondary-dark: theme('colors.dark.300');
+
+  --text-brand-tertiary: theme('colors.brand.600');
+  --text-brand-tertiary-dark: theme('colors.dark.400');
+  --text-brand-tertiary-alt: theme('colors.brand.600');
+  --text-brand-tertiary-alt-dark: theme('colors.dark.50');
+
+  --text-error-primary: theme('colors.error.600');
+  --text-error-primary-dark: theme('colors.error.400');
+
+  --text-warning-primary: theme('colors.warning.600');
+  --text-warning-primary-dark: theme('colors.warning.400');
+
+  --text-success-primary: theme('colors.success.600');
+  --text-success-primary-dark: theme('colors.success.50');
 }
