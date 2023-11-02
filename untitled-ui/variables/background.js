@@ -44,7 +44,6 @@ module.exports = {
     dark: 'var(--bg-secondary-solid-dark)',
   },
 
-
   'tertiary-bg': {
     DEFAULT: 'var(--bg-tertiary)',
     dark: 'var(--bg-tertiary-dark)',
