@@ -1,0 +1,6 @@
+:root {
+  --fg-primary: theme('colors.light.900');
+  --fg-primary-dark: theme('colors.white');
+  --fg-secondary: theme('colors.light.700');
+  --fg-secondary-dark: theme('colors.light.300');
+}
