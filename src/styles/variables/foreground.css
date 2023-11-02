@@ -55,7 +55,7 @@
 
   --fg-success-primary: theme('colors.success.600');
   --fg-success-primary-dark: theme('colors.success.500');
-  
+
   --fg-success-secondary: theme('colors.success.500');
   --fg-success-secondary-dark: theme('colors.success.400');
 }
