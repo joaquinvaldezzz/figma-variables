@@ -66,7 +66,7 @@ module.exports = {
 
   'brand-primary': {
     DEFAULT: 'var(--text-brand-primary)',
-    dark:'var(--text-brand-primary-dark)',
+    dark: 'var(--text-brand-primary-dark)',
   },
 
   'brand-secondary': {
