@@ -1,5 +1,3 @@
-const colors = require('../colors')
-
 module.exports = {
   primary: {
     DEFAULT: 'var(--text-primary)',
