@@ -1,4 +1,4 @@
-@import 'variables/background.css';
-@import 'variables/border.css';
-@import 'variables/foreground.css';
 @import 'variables/text.css';
+@import 'variables/border.css';
+@import 'variables/background.css';
+@import 'variables/foreground.css';
