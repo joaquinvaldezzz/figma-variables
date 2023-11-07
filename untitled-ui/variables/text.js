@@ -1,5 +1,3 @@
-const colors = require('../colors')
-
 module.exports = {
   primary: {
     DEFAULT: 'var(--text-primary)',
@@ -16,88 +14,88 @@ module.exports = {
     dark: 'var(--text-secondary-dark)',
 
     hover: {
-      DEFAULT: colors.light[800],
-      dark: colors.dark[200],
+      DEFAULT: 'var(--text-secondary-hover)',
+      dark: 'var(--text-secondary-hover-dark)',
     },
 
     'on-brand': {
-      DEFAULT: colors.brand[200],
-      dark: colors.dark[300],
+      DEFAULT: 'var(--text-secondary-on-brand)',
+      dark: 'var(--text-secondary-on-brand-dark)',
     },
   },
 
   tertiary: {
-    DEFAULT: colors.light[600],
-    dark: colors.dark[400],
+    DEFAULT: 'var(--text-tertiary)',
+    dark: 'var(--text-tertiary-dark)',
 
     hover: {
-      DEFAULT: colors.light[700],
-      dark: colors.dark[300],
+      DEFAULT: 'var(--text-tertiary-hover)',
+      dark: 'var(--text-tertiary-hover-dark)',
     },
 
     'on-brand': {
-      DEFAULT: colors.brand[200],
-      dark: colors.dark[400],
+      DEFAULT: 'var(--text-tertiary-on-brand)',
+      dark: 'var(--text-tertiary-on-brand-dark)',
     },
   },
 
   quarterary: {
-    DEFAULT: colors.light[500],
-    dark: colors.dark[400],
+    DEFAULT: 'var(--text-quarterary)',
+    dark: 'var(--text-quarterary-dark)',
 
     'on-brand': {
-      DEFAULT: colors.brand[300],
-      dark: colors.dark[400],
+      DEFAULT: 'var(--text-quarterary-on-brand)',
+      dark: 'var(--text-quarterary-on-brand-dark)',
     },
   },
 
   disabled: {
-    DEFAULT: colors.light[500],
-    dark: colors.dark[500],
+    DEFAULT: 'var(--text-disabled)',
+    dark: 'var(--text-disabled-dark)',
   },
 
   placeholder: {
-    DEFAULT: colors.light[500],
-    dark: colors.dark[500],
+    DEFAULT: 'var(--text-placeholder)',
+    dark: 'var(--text-placeholder-dark)',
 
     subtle: {
-      DEFAULT: colors.light[300],
-      dark: colors.dark[700],
+      DEFAULT: 'var(--text-placeholder-subtle)',
+      dark: 'var(--text-placeholder-subtle-dark)',
     },
   },
 
   'brand-primary': {
-    DEFAULT: colors.brand[900],
-    dark: colors.dark[50],
+    DEFAULT: 'var(--text-brand-primary)',
+    dark: 'var(--text-brand-primary-dark)',
   },
 
   'brand-secondary': {
-    DEFAULT: colors.brand[700],
-    dark: colors.dark[300],
+    DEFAULT: 'var(--text-brand-secondary)',
+    dark: 'var(--text-brand-secondary-dark)',
   },
 
   'brand-tertiary': {
-    DEFAULT: colors.brand[600],
-    dark: colors.dark[400],
+    DEFAULT: 'var(--text-brand-tertiary)',
+    dark: 'var(--text-brand-tertiary-dark)',
 
     alt: {
-      DEFAULT: colors.brand[600],
-      dark: colors.dark[50],
+      DEFAULT: 'var(--text-brand-tertiary-alt)',
+      dark: 'var(--text-brand-tertiary-alt-dark)',
     },
   },
 
   'error-primary': {
-    DEFAULT: colors.error[600],
-    dark: colors.error[400],
+    DEFAULT: 'var(--text-error-primary)',
+    dark: 'var(--text-error-primary-dark)',
   },
 
   'warning-primary': {
-    DEFAULT: colors.warning[600],
-    dark: colors.warning[400],
+    DEFAULT: 'var(--text-warning-primary)',
+    dark: 'var(--text-warning-primary-dark)',
   },
 
   'success-primary': {
-    DEFAULT: colors.success[600],
-    dark: colors.success[50],
+    DEFAULT: 'var(--text-success-primary)',
+    dark: 'var(--text-success-primary-dark)',
   },
 }

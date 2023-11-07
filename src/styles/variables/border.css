@@ -1,0 +1,28 @@
+:root {
+  --border-primary: theme('colors.light.300');
+  --border-primary-dark: theme('colors.dark.700');
+
+  --border-secondary: theme('colors.light.200');
+  --border-secondary-dark: theme('colors.dark.800');
+
+  --border-tertiary: theme('colors.light.100');
+  --border-tertiary-dark: theme('colors.dark.800');
+
+  --border-disabled: theme('colors.light.300');
+  --border-disabled-dark: theme('colors.dark.700');
+  --border-disabled-subtle: theme('colors.light.200');
+  --border-disabled-subtle-dark: theme('colors.dark.800');
+
+  --border-brand: theme('colors.brand.300');
+  --border-brand-dark: theme('colors.brand.400');
+
+  --border-brand-solid: theme('colors.brand.600');
+  --border-brand-solid-dark: theme('colors.brand.500');
+  --border-brand-solid-alt: theme('colors.brand.600');
+  --border-brand-solid-alt-dark: theme('colors.dark.700');
+
+  --border-error: theme('colors.error.300');
+  --border-error-dark: theme('colors.error.400');
+  --border-error-solid: theme('colors.error.500');
+  --border-error-solid-dark: theme('colors.error.600');
+}

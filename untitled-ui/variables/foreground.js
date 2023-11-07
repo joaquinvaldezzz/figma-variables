@@ -1,5 +1,3 @@
-const colors = require('../colors')
-
 module.exports = {
   'primary-fg': {
     DEFAULT: 'var(--fg-primary)',
@@ -7,107 +5,107 @@ module.exports = {
   },
 
   'secondary-fg': {
-    DEFAULT: colors.light[700],
-    dark: colors.dark[300],
+    DEFAULT: 'var(--fg-secondary)',
+    dark: 'var(--fg-secondary-dark)',
 
     hover: {
-      DEFAULT: colors.light[800],
-      dark: colors.dark[200],
+      DEFAULT: 'var(--fg-secondary-hover)',
+      dark: 'var(--fg-secondary-hover-dark)',
     },
   },
 
   'tertiary-fg': {
-    DEFAULT: colors.light[600],
-    dark: colors.dark[400],
+    DEFAULT: 'var(--fg-tertiary)',
+    dark: 'var(--fg-tertiary-dark)',
 
     hover: {
-      DEFAULT: colors.light[700],
-      dark: colors.dark[300],
+      DEFAULT: 'var(--fg-tertiary-hover)',
+      dark: 'var(--fg-tertiary-hover-dark)',
     },
   },
 
   'quarterary-fg': {
-    DEFAULT: colors.light[500],
-    dark: colors.dark[400],
+    DEFAULT: 'var(--fg-quarterary)',
+    dark: 'var(--fg-quarterary-dark)',
 
     hover: {
-      DEFAULT: colors.light[600],
-      dark: colors.dark[300],
+      DEFAULT: 'var(--fg-quarterary-hover)',
+      dark: 'var(--fg-quarterary-hover-dark)',
     },
   },
 
   'quinary-fg': {
-    DEFAULT: colors.light[400],
-    dark: colors.dark[500],
+    DEFAULT: 'var(--fg-quinary)',
+    dark: 'var(--fg-quinary-dark)',
 
     hover: {
-      DEFAULT: colors.light[500],
-      dark: colors.dark[400],
+      DEFAULT: 'var(--fg-quinary-hover)',
+      dark: 'var(--fg-quinary-hover-dark)',
     },
   },
 
   'senary-fg': {
-    DEFAULT: colors.light[300],
-    dark: colors.dark[600],
+    DEFAULT: 'var(--fg-senary)',
+    dark: 'var(--fg-senary-dark)',
   },
 
   'white-fg': {
-    DEFAULT: colors.white,
-    dark: colors.white,
+    DEFAULT: 'var(--fg-white)',
+    dark: 'var(--fg-white-dark)',
   },
 
   'disabled-fg': {
-    DEFAULT: colors.light[400],
-    dark: colors.dark[500],
+    DEFAULT: 'var(--fg-disabled)',
+    dark: 'var(--fg-disabled-dark)',
 
     subtle: {
-      DEFAULT: colors.light[300],
-      dark: colors.dark[600],
+      DEFAULT: 'var(--fg-disabled-subtle)',
+      dark: 'var(--fg-disabled-subtle-dark)',
     },
   },
 
   'brand-primary-fg': {
-    DEFAULT: colors.brand[600],
-    dark: colors.brand[500],
+    DEFAULT: 'var(--fg-brand-primary)',
+    dark: 'var(--fg-brand-primary-dark)',
 
     alt: {
-      DEFAULT: colors.brand[600],
-      dark: colors.dark[300],
+      DEFAULT: 'var(--fg-brand-primary-alt)',
+      dark: 'var(--fg-brand-primary-alt-dark)',
     },
   },
 
   'brand-secondary-fg': {
-    DEFAULT: colors.brand[500],
-    dark: colors.brand[500],
+    DEFAULT: 'var(--fg-brand-secondary)',
+    dark: 'var(--fg-brand-secondary-dark)',
   },
 
   'error-primary-fg': {
-    DEFAULT: colors.error[600],
-    dark: colors.error[500],
+    DEFAULT: 'var(--fg-error-primary)',
+    dark: 'var(--fg-error-primary-dark)',
   },
 
   'error-secondary-fg': {
-    DEFAULT: colors.error[500],
-    dark: colors.error[400],
+    DEFAULT: 'var(--fg-error-secondary)',
+    dark: 'var(--fg-error-secondary-dark)',
   },
 
   'warning-primary-fg': {
-    DEFAULT: colors.warning[600],
-    dark: colors.warning[500],
+    DEFAULT: 'var(--fg-warning-primary)',
+    dark: 'var(--fg-warning-primary-dark)',
   },
 
   'warning-secondary-fg': {
-    DEFAULT: colors.warning[500],
-    dark: colors.warning[400],
+    DEFAULT: 'var(--fg-warning-secondary)',
+    dark: 'var(--fg-warning-secondary-dark)',
   },
 
   'success-primary-fg': {
-    DEFAULT: colors.success[600],
-    dark: colors.success[500],
+    DEFAULT: 'var(--fg-success-primary)',
+    dark: 'var(--fg-success-primary-dark)',
   },
 
   'success-secondary-fg': {
-    DEFAULT: colors.success[500],
-    dark: colors.success[400],
+    DEFAULT: 'var(--fg-success-secondary)',
+    dark: 'var(--fg-success-secondary-dark)',
   },
 }

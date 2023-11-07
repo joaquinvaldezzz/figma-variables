@@ -1,164 +1,156 @@
-const colors = require('../colors')
-
 module.exports = {
   'primary-bg': {
-    DEFAULT: colors.light[25],
-    dark: colors.dark[950],
+    DEFAULT: 'var(--bg-primary)',
+    dark: 'var(--bg-primary-dark)',
 
     alt: {
-      DEFAULT: colors.light[25],
-      dark: colors.dark[900],
+      DEFAULT: 'var(--bg-primary-alt)',
+      dark: 'var(--bg-primary-alt-dark)',
     },
 
     hover: {
-      DEFAULT: colors.light[50],
-      dark: colors.light[800],
+      DEFAULT: 'var(--bg-primary-hover)',
+      dark: 'var(--bg-primary-hover-dark)',
     },
+  },
 
-    solid: {
-      DEFAULT: colors.light[950],
-      dark: colors.dark[900],
-    },
+  'primary-solid-bg': {
+    DEFAULT: 'var(--bg-primary-solid)',
+    dark: 'var(--bg-primary-solid-dark)',
   },
 
   'secondary-bg': {
-    DEFAULT: colors.light[50],
-    dark: colors.dark[900],
+    DEFAULT: 'var(--bg-secondary)',
+    dark: 'var(--bg-secondary-dark)',
 
     alt: {
-      DEFAULT: colors.light[50],
-      dark: colors.light[25],
+      DEFAULT: 'var(--bg-secondary-alt)',
+      dark: 'var(--bg-secondary-alt-dark)',
     },
 
     hover: {
-      DEFAULT: colors.light[100],
-      dark: colors.dark[800],
+      DEFAULT: 'var(--bg-secondary-hover)',
+      dark: 'var(--bg-secondary-hover-dark)',
     },
 
     subtle: {
-      DEFAULT: colors.light[25],
-      dark: colors.dark[900],
+      DEFAULT: 'var(--bg-secondary-subtle)',
+      dark: 'var(--bg-secondary-subtle-dark)',
     },
+  },
 
-    solid: {
-      DEFAULT: colors.light[600],
-      dark: colors.dark[600],
-    },
+  'secondary-solid-bg': {
+    DEFAULT: 'var(--bg-secondary-solid)',
+    dark: 'var(--bg-secondary-solid-dark)',
   },
 
   'tertiary-bg': {
-    DEFAULT: colors.light[100],
-    dark: colors.dark[800],
+    DEFAULT: 'var(--bg-tertiary)',
+    dark: 'var(--bg-tertiary-dark)',
   },
 
-  'quatermary-bg': {
-    DEFAULT: colors.light[200],
-    dark: colors.dark[700],
+  'quaternary-bg': {
+    DEFAULT: 'var(--bg-quaternary)',
+    dark: 'var(--bg-quaternary-dark)',
   },
 
   'active-bg': {
-    DEFAULT: colors.light[50],
-    dark: colors.dark[800],
+    DEFAULT: 'var(--bg-active)',
+    dark: 'var(--bg-active-dark)',
   },
 
   'disabled-bg': {
-    DEFAULT: colors.light[100],
-    dark: colors.dark[800],
+    DEFAULT: 'var(--bg-disabled)',
+    dark: 'var(--bg-disabled-dark)',
 
     subtle: {
-      DEFAULT: colors.light[50],
-      dark: colors.dark[900],
+      DEFAULT: 'var(--bg-disabled-subtle)',
+      dark: 'var(--bg-disabled-subtle-dark)',
     },
   },
 
   'overlay-bg': {
-    DEFAULT: colors.light[950],
-    dark: colors.dark[800],
+    DEFAULT: 'var(--bg-overlay)',
+    dark: 'var(--bg-overlay-dark)',
   },
 
   'brand-primary-bg': {
-    DEFAULT: colors.brand[50],
-    dark: colors.brand[500],
+    DEFAULT: 'var(--bg-brand-primary)',
+    dark: 'var(--bg-brand-primary-dark)',
 
     alt: {
-      DEFAULT: colors.brand[50],
-      dark: colors.brand[900],
+      DEFAULT: 'var(--bg-brand-primary-alt)',
+      dark: 'var(--bg-brand-primary-alt-dark)',
     },
   },
 
   'brand-secondary-bg': {
-    DEFAULT: colors.brand[100],
-    dark: colors.brand[600],
+    DEFAULT: 'var(--bg-brand-secondary)',
+    dark: 'var(--bg-brand-secondary-dark)',
   },
 
   'brand-solid-bg': {
-    DEFAULT: colors.brand[600],
-    dark: colors.brand[600],
+    DEFAULT: 'var(--bg-brand-solid)',
+    dark: 'var(--bg-brand-solid-dark)',
 
     hover: {
-      DEFAULT: colors.brand[700],
-      dark: colors.brand[500],
+      DEFAULT: 'var(--bg-brand-solid-hover)',
+      dark: 'var(--bg-brand-solid-hover-dark)',
     },
   },
 
   'brand-section-bg': {
-    DEFAULT: colors.brand[800],
-    dark: colors.brand[900],
+    DEFAULT: 'var(--bg-brand-section)',
+    dark: 'var(--bg-brand-section-dark)',
 
     subtle: {
-      DEFAULT: colors.brand[700],
-      dark: colors.brand[25],
+      DEFAULT: 'var(--bg-brand-section-subtle)',
+      dark: 'var(--bg-brand-section-subtle-dark)',
     },
   },
 
-  'error-bg': {
-    primary: {
-      DEFAULT: colors.error[50],
-      dark: colors.error[500],
-    },
-
-    secondary: {
-      DEFAULT: colors.error[700],
-      dark: colors.error[600],
-    },
-
-    solid: {
-      DEFAULT: colors.error[600],
-      dark: colors.error[600],
-    },
+  'error-primary-bg': {
+    DEFAULT: 'var(--bg-error-primary)',
+    dark: 'var(--bg-error-primary-dark)',
   },
 
-  'warning-bg': {
-    primary: {
-      DEFAULT: colors.warning[50],
-      dark: colors.warning[500],
-    },
-
-    secondary: {
-      DEFAULT: colors.warning[100],
-      dark: colors.warning[600],
-    },
-
-    solid: {
-      DEFAULT: colors.warning[600],
-      dark: colors.warning[600],
-    },
+  'error-secondary-bg': {
+    DEFAULT: 'var(--bg-error-secondary)',
+    dark: 'var(--bg-error-secondary-dark)',
   },
 
-  'success-bg': {
-    primary: {
-      DEFAULT: colors.success[50],
-      dark: colors.success[500],
-    },
+  'error-solid-bg': {
+    DEFAULT: 'var(--bg-error-solid)',
+    dark: 'var(--bg-error-solid-dark)',
+  },
 
-    secondary: {
-      DEFAULT: colors.success[100],
-      dark: colors.success[600],
-    },
+  'warning-primary-bg': {
+    DEFAULT: 'var(--bg-warning-primary)',
+    dark: 'var(--bg-warning-primary-dark)',
+  },
 
-    solid: {
-      DEFAULT: colors.success[600],
-      dark: colors.success[600],
-    },
+  'warning-secondary-bg': {
+    DEFAULT: 'var(--bg-warning-secondary)',
+    dark: 'var(--bg-warning-secondary-dark)',
+  },
+
+  'warning-solid-bg': {
+    DEFAULT: 'var(--bg-warning-solid)',
+    dark: 'var(--bg-warning-solid-dark)',
+  },
+
+  'success-primary-bg': {
+    DEFAULT: 'var(--bg-success-primary)',
+    dark: 'var(--bg-success-primary-dark)',
+  },
+
+  'success-secondary-bg': {
+    DEFAULT: 'var(--bg-success-secondary)',
+    dark: 'var(--bg-success-secondary-dark)',
+  },
+
+  'success-solid-bg': {
+    DEFAULT: 'var(--bg-success-solid)',
+    dark: 'var(--bg-success-solid-dark)',
   },
 }

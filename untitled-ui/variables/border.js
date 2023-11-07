@@ -1,53 +1,51 @@
-const colors = require('../colors')
-
 module.exports = {
   'primary-border': {
-    DEFAULT: colors.light[300],
-    dark: colors.dark[700],
+    DEFAULT: 'var(--border-primary)',
+    dark: 'var(--border-primary-dark)',
   },
 
   'secondary-border': {
-    DEFAULT: colors.light[200],
-    dark: colors.dark[800],
+    DEFAULT: 'var(--border-secondary)',
+    dark: 'var(--border-secondary-dark)',
   },
 
   'tertiary-border': {
-    DEFAULT: colors.light[100],
-    dark: colors.dark[800],
+    DEFAULT: 'var(--border-tertiary)',
+    dark: 'var(--border-tertiary-dark)',
   },
 
   'disabled-border': {
-    DEFAULT: colors.light[300],
-    dark: colors.dark[700],
+    DEFAULT: 'var(--border-disabled)',
+    dark: 'var(--border-disabled-dark)',
 
     subtle: {
-      DEFAULT: colors.light[200],
-      dark: colors.dark[800],
+      DEFAULT: 'var(--border-disabled-subtle)',
+      dark: 'var(--border-disabled-subtle-dark)',
     },
   },
 
   'brand-border': {
-    DEFAULT: colors.brand[300],
-    dark: colors.brand[400],
+    DEFAULT: 'var(--border-brand)',
+    dark: 'var(--border-brand-dark)',
   },
 
-  'brand-border-solid': {
-    DEFAULT: colors.brand[600],
-    dark: colors.brand[500],
+  'brand-solid-border': {
+    DEFAULT: 'var(--border-brand-solid)',
+    dark: 'var(--border-brand-solid-dark)',
 
     alt: {
-      DEFAULT: colors.brand[600],
-      dark: colors.dark[700],
+      DEFAULT: 'var(--border-brand-solid-alt)',
+      dark: 'var(--border-brand-solid-alt-dark)',
     },
   },
 
   'error-border': {
-    DEFAULT: colors.error[300],
-    dark: colors.error[400],
+    DEFAULT: 'var(--border-error)',
+    dark: 'var(--border-error-dark)',
 
     solid: {
-      DEFAULT: colors.error[500],
-      dark: colors.error[600],
+      DEFAULT: 'var(--border-error-solid)',
+      dark: 'var(--border-error-solid-dark)',
     },
   },
 }
