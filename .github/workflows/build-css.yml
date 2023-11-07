@@ -1,4 +1,4 @@
-name: Build
+name: Build CSS
 
 on:
   pull_request:
